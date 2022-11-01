@@ -1,0 +1,136 @@
+<!--Level 1:Subchapter 2-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <style></style>
+        <script></script>
+    </head>
+    <body>
+        <div>
+            This text is inside of a &lt;div&gt;<br />
+            This character &#161; has the value #161.
+        </div>
+    </body>
+</html>
+
+<!--Level 1:Subchapter 3-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <style></style>
+        <script>
+            console.log("Hello World")
+        </script>
+    </head>
+    <body></body>
+</html>
+
+<!--Level 1:Subchapter 4-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <style></style>
+        <script>
+            function initialize(){
+                console.log("Hello World")
+            }
+        </script>
+    </head>
+    <body></body>
+</html>
+
+<!--Level 1:Subchapter 5-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <style></style>
+        <script>
+            function greet(){
+                console.log("Hello World");
+            }
+
+            function shoutTen()
+            {
+                console.log("10!");
+            }
+        </script>
+    </head>
+    <body>
+        <button onclick="shoutTen();">Shout 10</button>
+    </body>
+</html>
+
+<!--Level 1:Subchapter 6-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <style></style>
+        <script>
+            function greet(){
+                num1 = 3;
+                num2 = 7;
+            }
+            function addNumbers()
+            {
+                var result = num1 + num2;
+                console.log(result);
+            }
+            function subtractNumbers()
+            {
+                var result = num1 - num2;
+                console.log(result);
+            }
+            function multiplyNumbers()
+            {
+                var result = num1 * num2;
+                console.log(result);
+            }
+            function divideNumbers()
+            {
+                var result = num1 / num2;
+                console.log(result);
+            }
+        </script>
+    </head>
+    <body>
+        <button onclick="addNumbers();">Add the 2 numbers</button>
+        <button onclick="subtractNumbers();">Substract the 2 numbers</button>
+        <button onclick="multiplyNumbers();">Multiply the 2 numbers</button>
+        <button onclick="divideNumbers();">Divide the 2 numbers</button>
+    </body>
+</html>
+
+<!--Level 1:Subchapter 7-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <style></style>
+        <script>
+            function initialize(){
+                myDiv = document.getElementById("test_div");
+                myDiv.innerHTML = "The text is changed.";
+            }
+
+            function clickResponse()
+            {
+                outputDiv.innerHTML = "Now you've clicked the button.";
+
+            }
+        </script>
+    </head>
+    <body onload="initialize();">
+        <div id = "divout">
+            You have not clicked the button.
+        </div>
+        <div id = "test_div">
+            Some Text In Here
+        </div>
+        <button>Click me!</button>
+    </body>
+</html>
